@@ -1,6 +1,8 @@
 ﻿//**Using Virtual Methods in Inheritance**
 
-//Create a `Person` base class with a `GetDetails()` method. Derive `Student` and `Teacher` classes that override `GetDetails()` to display their respective properties. Call `GetDetails()` using a base class reference.
+//Create a `Person` base class with a `GetDetails()` method. Derive `Student` and `Teacher`
+//classes that override `GetDetails()` to display their respective properties. Call
+//`GetDetails()` using a base class reference.
 
 
 

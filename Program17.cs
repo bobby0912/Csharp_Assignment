@@ -2,9 +2,8 @@
 
 //using c__Assignment;
 
-//Implement an `ILogger` interface and `FileLogger` class. Use the **Decorator Pattern** to add extra logging features like timestamp and error categorization.
-
-
+//Implement an `ILogger` interface and `FileLogger` class. Use the **Decorator Pattern**
+//to add extra logging features like timestamp and error categorization.
 
 
 using System;
@@ -61,21 +60,21 @@ namespace c__Assignment
         }
     }
 
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            ILogger logger = new FileLogger();
+    //class Program17
+    //{
+    //    static void Main(string[] args)
+    //    {
+    //        ILogger logger = new FileLogger();
 
-            // Add timestamp feature
-            logger = new TimestampLogger(logger);
+    //        // Add timestamp feature
+    //        logger = new TimestampLogger(logger);
 
-            // Add error categorization feature
-            logger = new ErrorCategorizationLogger(logger);
+    //        // Add error categorization feature
+    //        logger = new ErrorCategorizationLogger(logger);
 
-            logger.Log("This is a log message."); // Output: [Error]: 2023-10-10 10:10:10: This is a log message.
-        }
-    }
+    //        logger.Log("This is a log message."); // Output: [Error]: 2023-10-10 10:10:10: This is a log message.
+    //    }
+    //}
 }
 
 

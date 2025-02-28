@@ -1,6 +1,7 @@
 //**Shallow Copy vs. Deep Copy**
 
-//Create a `Department` class with a reference-type property `Manager`. Implement both **Shallow Copy** and **Deep Copy** to show how references are handled.
+//Create a `Department` class with a reference-type property `Manager`. Implement both **Shallow Copy**
+//and **Deep Copy** to show how references are handled.
 
 
 
@@ -54,7 +55,7 @@ namespace c__Assignment
         }
     }
 
-    //public class Program
+    //public class Program12
     //{
     //    static void Main(string[] args)
     //    {
@@ -69,9 +70,9 @@ namespace c__Assignment
     //        // Change the manager's name in the original department
     //        originalDepartment.Manager.Name = "Bob";
 
-    //        Console.WriteLine("Original Department: " + originalDepartment); // Output: Department: HR, Manager: Bob
-    //        Console.WriteLine("Shallow Copy Department: " + shallowCopyDepartment); // Output: Department: HR, Manager: Bob
-    //        Console.WriteLine("Deep Copy Department: " + deepCopyDepartment); // Output: Department: HR, Manager: Alice
+    //        Console.WriteLine("Original Department: " + originalDepartment);
+    //        Console.WriteLine("Shallow Copy Department: " + shallowCopyDepartment);
+    //        Console.WriteLine("Deep Copy Department: " + deepCopyDepartment);
     //    }
     //}
 }

@@ -1,6 +1,7 @@
 //**Thread - Safe Singleton Pattern for Configuration Management**
 
-//Implement a Singleton class `ConfigurationManager` that prevents multiple instances. Ensure it is thread-safe.
+//Implement a Singleton class `ConfigurationManager` that prevents multiple instances.
+//Ensure it is thread-safe.
 
 
 
@@ -15,10 +16,8 @@ namespace c__Assignment
 
         public string Configuration { get; private set; }
 
-        // Private constructor to prevent instantiation
         private ConfigurationManager()
         {
-            // Initialize configuration settings
             Configuration = "Default Configuration";
         }
 
@@ -26,7 +25,7 @@ namespace c__Assignment
         {
             get
             {
-                // Double-checked locking to ensure thread safety
+                // thread safety
                 if (_instance == null)
                 {
                     lock (_lock)
@@ -47,20 +46,17 @@ namespace c__Assignment
         }
     }
 
-    class Program
+    class Program18
     {
         static void Main(string[] args)
         {
-            // Access the singleton instance
             ConfigurationManager configManager1 = ConfigurationManager.Instance;
-            Console.WriteLine(configManager1.Configuration); // Output: Default Configuration
+            Console.WriteLine(configManager1.Configuration);
 
-            // Modify the configuration
             configManager1.SetConfiguration("New Configuration");
 
-            // Access the singleton instance again
             ConfigurationManager configManager2 = ConfigurationManager.Instance;
-            Console.WriteLine(configManager2.Configuration); // Output: New Configuration
+            Console.WriteLine(configManager2.Configuration);
         }
     }
 }

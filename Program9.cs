@@ -1,6 +1,7 @@
 ﻿//**Multiple Inheritance Using Interfaces**
 
-//Define two interfaces `IPrintable` (for printing details) and `ISerializable` (for saving to a file). Implement both in a `Report` class and demonstrate multiple interface implementation.
+//Define two interfaces `IPrintable` (for printing details) and `ISerializable` (for saving to a file).
+//Implement both in a `Report` class and demonstrate multiple interface implementation.
 
 
 
@@ -35,7 +36,6 @@ namespace c__Assignment
 
         public void SaveToFile(string filePath)
         {
-            // For demonstration purposes, we'll just simulate saving to a file
             Console.WriteLine($"Saving report to {filePath}...");
         }
     }
@@ -50,8 +50,8 @@ namespace c__Assignment
     //            Content = "This is the content of the annual report."
     //        };
 
-    //        report.Print(); // Output: Title: Annual Report, Content: This is the content of the annual report.
-    //        report.SaveToFile("report.txt"); // Output: Saving report to report.txt...
+    //        report.Print();
+    //        report.SaveToFile("report.txt");
     //    }
     //}
 }

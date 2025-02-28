@@ -1,8 +1,8 @@
 ﻿//**Method Overloading in a Calculator Class**
 
-//Implement a `Calculator` class with overloaded methods `Add()`. It should accept two integers, three integers, and two double values separately. Demonstrate how method overloading works.
-
-
+//Implement a `Calculator` class with overloaded methods `Add()`. It should accept
+//two integers, three integers, and two double values separately. Demonstrate how
+//method overloading works.
 
 using System;
 using System.Collections.Generic;

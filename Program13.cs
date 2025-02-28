@@ -1,6 +1,7 @@
 ﻿//**Static Members in a Banking System**
 
-//Implement a `Bank` class with a static field `InterestRate` and a static method `SetInterestRate()`. Show how static members work across multiple objects.
+//Implement a `Bank` class with a static field `InterestRate` and a static method `SetInterestRate()`.
+//Show how static members work across multiple objects.
 
 
 
@@ -45,13 +46,13 @@ namespace c__Assignment
     //        Bank account1 = new Bank("Alice", 1000);
     //        Bank account2 = new Bank("Bob", 2000);
 
-    //        account1.DisplayAccountInfo(); // Output: Account Holder: Alice, Balance: 1000, Interest Rate: 3.5%
-    //        account2.DisplayAccountInfo(); // Output: Account Holder: Bob, Balance: 2000, Interest Rate: 3.5%
+    //        account1.DisplayAccountInfo();
+    //        account2.DisplayAccountInfo();
 
     //        Bank.SetInterestRate(4.0);
 
-    //        account1.DisplayAccountInfo(); // Output: Account Holder: Alice, Balance: 1000, Interest Rate: 4.0%
-    //        account2.DisplayAccountInfo(); // Output: Account Holder: Bob, Balance: 2000, Interest Rate: 4.0%
+    //        account1.DisplayAccountInfo();
+    //        account2.DisplayAccountInfo();
     //    }
     //}
 }

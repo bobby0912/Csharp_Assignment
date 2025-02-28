@@ -1,6 +1,7 @@
 //**Operator Overloading for Complex Numbers**
 
-//Create a `ComplexNumber` class with properties `Real` and `Imaginary`. Overload the `+` operator to add two complex numbers.
+//Create a `ComplexNumber` class with properties `Real` and `Imaginary`.
+//Overload the `+` operator to add two complex numbers.
 
 
 
@@ -25,14 +26,9 @@ namespace c__Assignment
         {
             return new ComplexNumber(c1.Real + c2.Real, c1.Imaginary + c2.Imaginary);
         }
-
-        public override string ToString()
-        {
-            return $"{Real} + {Imaginary}i";
-        }
     }
 
-    //public class Program
+    //public class Program11
     //{
     //    static void Main(string[] args)
     //    {
@@ -41,7 +37,7 @@ namespace c__Assignment
 
     //        ComplexNumber sum = c1 + c2;
 
-    //        Console.WriteLine($"Sum: {sum}"); // Output: Sum: 4.5 + 6.5i
+    //        Console.WriteLine($"Sum: {sum}");
     //    }
     //}
 }

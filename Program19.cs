@@ -1,6 +1,8 @@
 //**Real - World Observer Pattern for Notifications**
 
-//Implement an `INotificationObserver` interface where `EmailNotifier` and `SMSNotifier` listen for notifications. When a new message arrives, all observers should receive an update.
+//Implement an `INotificationObserver` interface where `EmailNotifier` and `SMSNotifier`
+//listen for notifications. When a new message arrives, all observers should receive an update.
+
 using c__Assignment;
 using System;
 using System.Collections.Generic;
@@ -51,7 +53,7 @@ namespace c__Assignment
         }
     }
 
-    class Program
+    class Program19
     {
         static void Main(string[] args)
         {
@@ -63,11 +65,11 @@ namespace c__Assignment
             notificationService.Subscribe(emailNotifier);
             notificationService.Subscribe(smsNotifier);
 
-            notificationService.Notify("New message received!"); // Output: Email Notification: New message received! \n SMS Notification: New message received!
+            notificationService.Notify("New message received!");
 
             notificationService.Unsubscribe(emailNotifier);
 
-            notificationService.Notify("Another message received!"); // Output: SMS Notification: Another message received!
+            notificationService.Notify("Another message received!");
         }
     }
 }

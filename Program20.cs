@@ -1,6 +1,7 @@
 //**Strategy Pattern for Dynamic Discount Calculation**
 
-//Implement different discount strategies (`NoDiscount`, `PercentageDiscount`, `FixedAmountDiscount`). The `ShoppingCart` class should apply a strategy dynamically based on user input.
+//Implement different discount strategies (`NoDiscount`, `PercentageDiscount`, `FixedAmountDiscount`).
+//The `ShoppingCart` class should apply a strategy dynamically based on user input.
 
 
 

@@ -1,6 +1,7 @@
 //**Factory Pattern for Object Creation**
 
-//Implement a `VehicleFactory` class that returns different vehicle objects (`Car`, `Bike`) based on an input parameter.
+//Implement a `VehicleFactory` class that returns different vehicle objects
+//(`Car`, `Bike`) based on an input parameter.
 
 
 
@@ -8,12 +9,12 @@ using System;
 
 namespace c__Assignment
 {
-    abstract class Vehicle
+    abstract class Vehicle1
     {
         public abstract void Drive();
     }
 
-    class Car : Vehicle
+    class Car1 : Vehicle1
     {
         public override void Drive()
         {
@@ -21,7 +22,7 @@ namespace c__Assignment
         }
     }
 
-    class Bike : Vehicle
+    class Bike1 : Vehicle1
     {
         public override void Drive()
         {
@@ -45,17 +46,16 @@ namespace c__Assignment
         }
     }
 
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            Vehicle car = VehicleFactory.GetVehicle("car");
-            car.Drive(); // Output: Driving a car.
-
-            Vehicle bike = VehicleFactory.GetVehicle("bike");
-            bike.Drive(); // Output: Riding a bike.
-        }
-    }
+    //class Program
+    //{
+    //    static void Main(string[] args)
+    //    {
+    //        Vehicle car = VehicleFactory.GetVehicle("car");
+    //        car.Drive();
+    //        Vehicle bike = VehicleFactory.GetVehicle("bike");
+    //        bike.Drive();
+    //    }
+    //}
 }
 
 
