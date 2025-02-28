@@ -2,7 +2,8 @@
 
 //**Data Hiding with Properties**
 
-//Create a `Student` class where `Name` and `RollNo` are private fields.Use properties to enforce validation (e.g., `RollNo` cannot be negative, `Name` cannot be empty).
+//Create a `Student` class where `Name` and `RollNo` are private fields.Use properties
+//to enforce validation (e.g., `RollNo` cannot be negative, `Name` cannot be empty).
 
 
 using System;

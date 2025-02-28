@@ -1,6 +1,8 @@
 ﻿//**Encapsulation Challenge**
 
-//Create a `BankAccount` class where `balance` is a private field.Implement methods for `Deposit()` and `Withdraw()`, ensuring that withdrawal is only allowed if there is a sufficient balance.Prevent direct modification of `balance` from outside the class.
+//Create a `BankAccount` class where `balance` is a private field.Implement methods for `Deposit()`
+//and `Withdraw()`, ensuring that withdrawal is only allowed if there is a sufficient balance.Prevent
+//direct modification of `balance` from outside the class.
 
 
 
